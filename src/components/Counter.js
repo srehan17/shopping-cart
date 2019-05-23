@@ -14,7 +14,7 @@ class Counter extends Component {
     });
   };
 
-  handleDecrease = () => {
+  handleDecrement = () => {
     const { value } = this.state;
     if (value <= 0) {
       this.setState({ value: 0, errorMessage: "Value can't be negative!!" });
@@ -39,7 +39,7 @@ class Counter extends Component {
           +
         </button>
         <button
-          onClick={this.handleDecrease}
+          onClick={this.handleDecrement}
           className="btn btn-success btn-sm m-2"
         >
           -

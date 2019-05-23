@@ -1,13 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 
-class Title extends Component {
-  render() {
-    return (
-      <React.Fragment>
-        <h1 style={{ textAlign: "center" }}>Shopping Cart</h1>
-      </React.Fragment>
-    );
-  }
-}
+const Title = () => {
+  return (
+    <React.Fragment>
+      <h1 style={{ textAlign: "center" }}>Shopping Cart</h1>
+    </React.Fragment>
+  );
+};
 
 export default Title;

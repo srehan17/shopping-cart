@@ -16,7 +16,6 @@ class Counters extends Component {
     this.setState({ counters });
   };
 
-  // --
   render() {
     return (
       <div>
